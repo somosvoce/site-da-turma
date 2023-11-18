@@ -1,0 +1,67 @@
+* {margin: 0;
+padding: 0;}
+
+.cabeçalho {background-color:#24257c;
+color: white;
+display: flex;
+justify-content: space-around;
+padding: 24px 0;}
+
+.cabeçalho-imagem {width: 20%;
+height: 20%;}
+
+.texto-imagem {width: 20%;}
+
+.cabeçalho-lista-item{display: inline-block;
+margin: 0 16px;
+padding: 24px 0;
+font-size: 20px;
+background-color: linear-gradient(#3e247c, purple);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px 0;}
+
+.escola{background-image: linear-gradient(#3e247c, purple);
+color:white;
+display: flex;
+padding: 15px;}
+
+.estudante {display: inline-block;
+    padding: 24px 0;
+    font-size: 24px;
+    background-image: linear-gradient(purple, black)
+}
+
+.texto1 {color: white;
+width: 45%;
+height: 45%;
+margin: 15px ;}
+.texto2 {color: white;
+    width: 45%;
+    height: 45%;
+padding-bottom: 20px;
+margin: 15px;}
+
+.escola-titulo {padding: 24px 0;
+margin: 15px;}
+
+.body {font-family:'roboto' Slab;}
+
+.estudante-nome {color: white;}
+
+.estudante-icone {width: 24px;}
+.estudante-div {text-align: center;}
+.estudante-titulo {text-align: center;
+color: white;}
+.estudante-imagem {width: 50%;
+height: 50%;}
+.estudante-todos {display:grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+padding: 15px;}
+
+.footer {background-color: black;
+text-align: center;
+padding: 15px 0;}
+.footer-imagem{width: 50px;
+height: 25px;}
